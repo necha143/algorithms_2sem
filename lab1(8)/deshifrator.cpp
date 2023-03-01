@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <cmath>
 
@@ -69,4 +68,4 @@ int main() {
         }
         cout << myStr << endl;
     }
-}*/
+}
