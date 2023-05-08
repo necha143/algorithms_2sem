@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <vector>
 
@@ -73,4 +72,4 @@ int main() {
     sort(edges.begin(), edges.end(), [](Edge const &a, Edge const &b) { return a.weight < b.weight; });
     cout << kraskal(edges, mst, M, parent, rank);
     return 0;
-}*/
+}
