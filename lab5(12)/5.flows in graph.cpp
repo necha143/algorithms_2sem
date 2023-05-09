@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <queue>
 
@@ -39,7 +38,7 @@ public:
 
 */
 /*Идея - на каждой итерации находить увеличивающий путь в остаточной сети и увеличивать поток по этому пути.
-Увеличивающий путь — это путь из источника в сток, по которому все ребра имеют неиспользованные пропускные способности.*//*
+Увеличивающий путь — это путь из источника в сток, по которому все ребра имеют неиспользованные пропускные способности.*/
 
     void Flow(int start, int end, int N, vector<char> &color, vector<int> &parent, vector<vector<int>> &weights,
               vector<Edge> &edges) {
@@ -87,4 +86,4 @@ int main() {
 
     fordFalkerson.Flow(0, N - 1, N, color, parent, weights, edges);
     return 0;
-}*/
+}
