@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <vector>
 #include <iterator>
@@ -56,4 +55,4 @@ int main() {
     poker.amount_of_cards(N, all_cards);
 
     return 0;
-}*/
+}
