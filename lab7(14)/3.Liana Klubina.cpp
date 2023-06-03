@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <vector>
 
@@ -28,4 +27,4 @@ int main() {
 
     repetitions(N, M, text);
     return 0;
-}*/
+}
