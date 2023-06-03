@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <vector>
 #include <regex>
@@ -76,4 +75,4 @@ int main() {
 
     RegexMatch::check_match(M);
     return 0;
-}*/
+}
